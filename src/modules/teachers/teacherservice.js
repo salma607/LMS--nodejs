@@ -3,7 +3,6 @@ import bcrypt from "bcryptjs";
 import Auth from "../../models/auth/auth.js";
 import Teacher from "../../models/teachers/teacher.js";
 import teacherRepository from "../../repository/teacherrepo.js";
-import { Class } from "../../models/index.js";
 
 // ==============================
 // Generate Teacher Code
